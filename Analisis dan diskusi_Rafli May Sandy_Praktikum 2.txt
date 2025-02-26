@@ -1,0 +1,14 @@
+Analisis:
+Dalam percobaan pada minggu ke-2 ini, saya melakuka percobaan mendeteksi warna pada objek dengan menggunakan machine learning. Saya juga menggunakan scikit-learn sebagai Pustaka dari machine learning, serta menggunakan KNN sebagai model dari machine learning. Sebelum menjalankan program deteksi warna terlebih dahulu menjalankan program untuk pelatihan sebagai pendekatan dari machine learning agar dapat mengetahui akurasi dari machine learning dalam mendeteksi warna. Ketika program dijalankan menghasilkan akurasi sebesar 89,31%. Setelah itu, saya menjalankan program pendeteksi warnanya yang menghasilkan tampilan frame dengan keterangan warna yang terdeteksi. Dalam mendetksi warna, model KNN dapat dipahami dan diimplementasikan dengan mudah, namun ketika dataset bertambah akan meningkatkan akurasi tetapi waktu prediksi dapat lebih lambat dikarenakan KNN harus menghitung jarak ke semua data lainnya. Untuk meningkatkan kinerja model klasifikasi dapat dilakukan dengan memilih model yang tepat, dan meningoptimalkan data. 
+
+Diskusi:
+1.	Keuntungan Machine Learning dibandingkan dengan metode berbasisi aturan (rule-based), yaitu:
+•	Lebih fleksibel dan adaptif
+•	Lebih akurat dalam mengatasi data yang kompleks
+•	Dapat mengatasi data yang tidak terstruktur
+2.	Machine Learning dapat diintegrasikan lebih lanjut dalam sistem kendali dengan cara menggantikan sistem kendali konvensional dengan model yang adaptif terhadap perubahan kondisi. Machine learning dapat menganalisis data sensor secara real-time untuk mendeteksi kesalahan pada sebuah objek. Selain itu, machine learning dapat mengendalikan sistem secara otomatis tanapa bantuan manusia, seperti kendaraan otonom atau drone.
+3.	Tantangan yang ada dalam penerapan Machine Learning dalam sistem real-time, sebagai berikut:
+•	Kecepatan pemrosesan
+•	Kualitas dan ketersediaan data
+•	Keandalan dan toleransi kesalahan
+•	Skalabilitas dan integrasi dengan sistem eksiting
